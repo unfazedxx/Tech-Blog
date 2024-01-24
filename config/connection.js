@@ -1,6 +1,6 @@
 //Configure sequelize library for our database
 
-const sequelize = require ('sequelize');
+const sequelize = require('sequelize');
 require('dotenv').config();
 
 let sequelize;
@@ -17,8 +17,8 @@ if (process.env.JAWSDB_URL) {
             host: 'localhost',
             dialect: 'mysql',
             port: 3001
-          }
-        );
+        }
+    );
 }
 
 //export sequelize for us to use 
